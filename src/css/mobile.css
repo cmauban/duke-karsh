@@ -1,0 +1,15 @@
+/* ====================== MOBILE ====================== */
+
+@media only screen and (max-width: 768px) {
+
+ .flip-container,
+ .front,
+ .back {
+   width: 300px;
+ }
+
+ .flip-container {
+   margin: 15px;
+ }
+
+}
