@@ -8,6 +8,10 @@
 
 @media only screen and (max-width: 767px) {
 
+ #sec2 h2 {
+   line-height: 1;
+ }
+
  .flip-container,
  .front,
  .back {
@@ -46,6 +50,10 @@
    display: block;
  }
 
+ .footer-links {
+   padding: 25px;
+ }
+
  footer .footer-menu.mb-section {
     display: block;
     width: 100%;
@@ -77,6 +85,7 @@ footer .mb-section.active h4:after {
 
  footer .mb-section.active .footer-info {
    display: block;
+   margin: 10px 0;
  }
 
 }
