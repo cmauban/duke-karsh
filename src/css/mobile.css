@@ -1,6 +1,12 @@
 /* ====================== MOBILE ====================== */
+@media only screen and (max-width: 1095px) {
+  ul.tl li .timestamp {
+    left: -50%;
+  }
+}
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 786px) {
 
  .flip-container,
  .front,
@@ -10,6 +16,25 @@
 
  .flip-container {
    margin: 15px;
+ }
+
+ .half-box {
+   width: 100%;
+ }
+
+ .history-tl-container {
+   width: 100%;
+ }
+
+ .history-tl-container ul.tl li {
+   margin-left: 0;
+ }
+
+
+ ul.tl li .timestamp {
+   left: 0;
+   position: unset;
+   text-align: left;
  }
 
 }

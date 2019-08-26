@@ -77,10 +77,9 @@ h2 {
 }
 
 h3 {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #6e6f71;
   font-size: 22px;
-  font-weight: 600;
 }
 
 h4 {
@@ -91,7 +90,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #98999b;
   font-size: 16px;
   font-weight: 600;
@@ -235,8 +234,7 @@ nav {
   /* background: #e6dbae; */
 }
 .blocks:nth-child(4) {
-  /* background: #1D6363; */
-  background: #E5E5E5;
+  background: #1D6363;
 }
 .blocks:nth-child(5) {
   background: #E5E5E5;
@@ -245,7 +243,7 @@ nav {
 .sec-container {
   margin-top: 100px;
   position: relative;
-  z-index: 20;
+  /* z-index: 20; */
 }
 
 #sec1 {
@@ -341,7 +339,7 @@ nav {
 
 #sec1 section .timenumbers {
   display: block;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5rem;
   margin: 0 auto;
@@ -363,6 +361,11 @@ nav {
   margin: 0 auto 50px auto;
 }
 
+.intro-copy p {
+  line-height: 1.5;
+  font-size: 17px;
+}
+
 #sec2 {
   min-height: auto;
 }
@@ -374,7 +377,18 @@ nav {
 }
 
 #sec2 h2 {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+}
+
+#sec2 h3 {
+  color: #e6dbae;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: 400;
+  letter-spacing: 2.5px;
 }
 
 /* SCROLL ARROW */
@@ -475,17 +489,30 @@ nav {
   }
 }
 
+#sec3 .sec-container {
+  margin-top: 0;
+}
+
+#sec3 h3 {
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  font-size: 16px;
+}
 
 .half-box {
   background: #e6dbae;
   width: 50%;
   padding: 20px;
-  margin: auto 30px;
   align-items: center;
+  float: left;
 }
 
 .half-box h2 {
   margin-bottom: 20px;
+  color: #1D6363;
 }
 
 .half-box p {
@@ -495,7 +522,7 @@ nav {
 
 div.to-do {
   width: 300px;
-  margin: auto;
+  margin: 40px auto auto auto;
 }
 
 .to-do p {
@@ -566,6 +593,83 @@ div.to-do {
   border-bottom-right-radius:0;
   border-bottom-left-radius:0;
 }
+
+/* END THINGS TO DO */
+
+/* TIMELINE section 3 */
+#timeline {
+  background: #1D6363;
+}
+
+#timeline h2 {
+  color: #e6dbae
+}
+
+.history-tl-container {
+  width: 75%;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.history-tl-container ul.tl {
+  margin: 50px 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.history-tl-container ul.tl li {
+  list-style: none;
+  margin: auto;
+  margin-left: 115px;
+  min-height: 50px;
+  border-left: 1px dashed #e6dbae;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+
+.history-tl-container ul.tl li:last-child {
+  border-left:0;
+}
+
+.history-tl-container ul.tl li::before {
+  position: absolute;
+  left: -10px;
+  top: -5px;
+  content: " ";
+  border: 8px solid #062A4E;
+  border-radius: 500%;
+  background: #e6dbae;
+  height: 20px;
+  width: 20px;
+  transition: all 500ms ease-in-out;
+}
+
+.history-tl-container ul.tl li:hover::before {
+  border-color: #e6dbae;
+  transition: all 1000ms ease-in-out;
+}
+
+ul.tl li .item-title {
+  color: #e6dbae;
+}
+
+ul.tl li .item-detail {
+  color: #e6e6e6;
+  font-size: 12px;
+}
+
+ul.tl li .timestamp {
+  color: #e6e6e6;
+  position: absolute;
+  width:100px;
+  left: -40%;
+  text-align: right;
+  font-size: 12px;
+}
+
+
+/* END TIMELINE section 3 */
 
 /* TRIVIA CARDS */
 #trivia [class*='row-'] {
@@ -730,7 +834,7 @@ footer .footer-menu {
   display: block;
   -ms-flex: 1;
   flex: 1;
-  padding: 0 2rem 0 0;
+  /* padding: 0 2rem 0 0; */
 }
 
 .footer-menu:before {
