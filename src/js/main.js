@@ -141,3 +141,8 @@ function addSticky() {
 $(window).scroll(function() {
     addSticky();
 });
+
+/* FOOTER MOBILE */
+$('.mb-section').on('click', function(){
+  $(this).toggleClass('active');
+});
