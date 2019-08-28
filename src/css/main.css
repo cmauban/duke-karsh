@@ -773,6 +773,10 @@ ul.tl li .timestamp {
 
 /* END TRIVIA CARDS */
 
+#social {
+  background: #062A4E;
+}
+
 /* FOOTER */
 footer {
   /* position: fixed; */
