@@ -8,6 +8,14 @@
 
 @media only screen and (max-width: 767px) {
 
+ #main-nav ul {
+   float: none;
+ }
+
+ .nav li {
+  display: block;
+}
+
  #sec2 h2 {
    line-height: 1;
  }

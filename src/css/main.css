@@ -794,6 +794,10 @@ ul.tl li .timestamp {
   background: #062A4E;
 }
 
+#social .sec-container {
+  padding-bottom: 50px;
+}
+
 /* FOOTER */
 footer {
   /* position: fixed; */
