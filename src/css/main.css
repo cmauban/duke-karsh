@@ -192,10 +192,14 @@ nav {
   top: 0;
   left: 0;
   z-index: 10;
+  background: #101820;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 #main-nav ul {
-  float: left;
+  float: right;
+  padding-left: 0;
 }
 
 .nav li {
@@ -215,6 +219,16 @@ nav {
 
 .nav .link:hover {
   opacity: 1;
+}
+
+#logo {
+  float: left;
+  font-family: 'EB Garamond', serif;
+  margin: 20px 0;
+}
+
+#logo img {
+  height: 16px;
 }
 
 .blocks {
