@@ -3,12 +3,21 @@
   ul.tl li .timestamp {
     left: -50%;
   }
+
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+
+ .blocks {
+   min-height: auto;
+ }
 
  #main-nav ul {
+   float: none;
+ }
+
+ #logo {
    float: none;
  }
 
@@ -16,8 +25,16 @@
   display: block;
 }
 
- #sec2 h2 {
+ h2 {
    line-height: 1;
+ }
+
+ #timelapse-video iframe {
+   width: 100%;
+ }
+
+ .footer-menu:before {
+   display: none;
  }
 
  .flip-container,
@@ -40,6 +57,10 @@
 
  .history-tl-container ul.tl li {
    margin-left: 0;
+ }
+
+ .intro-copy {
+   width: 100%;
  }
 
 
