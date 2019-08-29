@@ -217,7 +217,8 @@ nav {
   margin: 0 10px;
 }
 
-.nav .link:hover {
+.nav .link:hover,
+.footer-info a:hover {
   opacity: 1;
 }
 
@@ -860,6 +861,14 @@ footer .footer-menu {
   -ms-flex: 1;
   flex: 1;
   /* padding: 0 2rem 0 0; */
+}
+
+.footer-info {
+  opacity: .7;
+}
+
+.footer-info a:hover {
+  opacity: 1 !important;
 }
 
 .footer-menu:before {
