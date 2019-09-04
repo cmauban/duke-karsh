@@ -504,17 +504,19 @@ nav {
   }
 }
 
-#todo .sec-container {
-  margin-top: 0;
-}
-
-#todo h3 {
+#todo h3,
+#social h3 {
   font-weight: 400;
   letter-spacing: 2.5px;
   text-transform: uppercase;
   text-align: center;
   color: #000;
   font-size: 16px;
+}
+
+#social h3 {
+  color: #e6dbae;
+  margin-bottom: 40px;
 }
 
 #todo,
@@ -885,6 +887,7 @@ footer .social {
 
 footer .social a {
   color: #E5E5E5;
+  margin-right: 2px;
 }
 
 footer span {
