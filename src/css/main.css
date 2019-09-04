@@ -258,7 +258,7 @@ nav {
 .sec-container {
   margin-top: 100px;
   position: relative;
-  /* z-index: 20; */
+  padding-bottom: 20px;
 }
 
 #sec1 {
@@ -631,7 +631,7 @@ div.to-do {
 }
 
 .history-tl-container ul.tl {
-  margin: 50px 0 20px 0;
+  margin: 50px 0;
   padding: 0;
   display: inline-block;
 }
@@ -684,7 +684,7 @@ ul.tl li .timestamp {
   width:100px;
   left: -30%;
   text-align: right;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #timelapse-video {
