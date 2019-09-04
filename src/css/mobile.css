@@ -6,19 +6,21 @@
 
 }
 
+/* TABLET */
+@media only screen and (max-width: 992px) {
+
+  #logo,
+  #main-nav ul {
+    float: none;
+  }
+
+}
+
 
 @media only screen and (max-width: 768px) {
 
  .blocks {
    min-height: auto;
- }
-
- #main-nav ul {
-   float: none;
- }
-
- #logo {
-   float: none;
  }
 
  .nav li {
