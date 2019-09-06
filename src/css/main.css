@@ -835,11 +835,12 @@ nav {
 
 ul.tl li .item-title {
   color: #e6dbae;
+  font-size: 20px;
 }
 
 ul.tl li .item-detail {
   color: #e6e6e6;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 ul.tl li .timestamp {
